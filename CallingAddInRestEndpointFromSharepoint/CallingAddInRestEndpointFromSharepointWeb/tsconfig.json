@@ -1,0 +1,19 @@
+{
+
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "outFile": "./Scripts/main.js"
+  },
+  "files": [
+    "./tsSource/Utilities.ts",
+    "./tsSource/main.ts",
+    "./tssource/ilistinfo.ts",
+    "./scripts/typings/sharepoint/sharepoint.d.ts",
+    "./scripts/typings/es6-promise/es6-promise.d.ts"
+  ],
+  "compileOnSave": true
+}
