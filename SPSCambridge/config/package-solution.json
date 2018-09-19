@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sps-cambridge-working-demo-client-side-solution",
+    "id": "aaef67ad-00ba-424d-8fd6-2437345a4905",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.ReadWrite.All"
+      },
+      {
+        "resource": "spscambridgedemo1",
+        "scope": "user_impersonation"
+      },
+      {
+        "resource": "cambridgefunctionapp",
+        "scope": "user_impersonation"
+      },
+      {
+        "resource": "Windows Azure Active Directory",
+        "scope": "User.Read"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sps-cambridge-working-demo.sppkg"
+  }
+}

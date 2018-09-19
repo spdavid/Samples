@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "azure-function-call-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/azureFunctionCall/AzureFunctionCallWebPart.js",
+          "manifest": "./src/webparts/azureFunctionCall/AzureFunctionCallWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-planner-tasks-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myPlannerTasks/MyPlannerTasksWebPart.js",
+          "manifest": "./src/webparts/myPlannerTasks/MyPlannerTasksWebPart.manifest.json"
+        }
+      ]
+    },
+    "azurefuncnoframework-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/azurefuncnoframework/AzurefuncnoframeworkWebPart.js",
+          "manifest": "./src/webparts/azurefuncnoframework/AzurefuncnoframeworkWebPart.manifest.json"
+        }
+      ]
+    },
+    "plannertasksnoframework-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/plannertasksnoframework/PlannertasksnoframeworkWebPart.js",
+          "manifest": "./src/webparts/plannertasksnoframework/PlannertasksnoframeworkWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AzureFunctionCallWebPartStrings": "lib/webparts/azureFunctionCall/loc/{locale}.js",
+    "MyPlannerTasksWebPartStrings": "lib/webparts/myPlannerTasks/loc/{locale}.js",
+    "AzurefuncnoframeworkWebPartStrings": "lib/webparts/azurefuncnoframework/loc/{locale}.js",
+    "PlannertasksnoframeworkWebPartStrings": "lib/webparts/plannertasksnoframework/loc/{locale}.js"
+  }
+}

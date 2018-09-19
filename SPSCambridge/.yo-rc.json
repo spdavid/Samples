@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "sps-cambridge-working-demo",
+    "libraryId": "aaef67ad-00ba-424d-8fd6-2437345a4905",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
